@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0}
+a{text-decoration: none;color: #666}
+ul,ol{list-style: none;}
+.common{width: 1190px;margin: 0 auto}
+
+#title a img{width: 1190px;height: 80px;vertical-align: middle;}
+
+#head{background: #f5f5f5;width: auto;}
+#head .head{height: 30px;border-bottom: 1px solid #eee}
+#head .head p{font-size: 0px;line-height: 30px;height: 30px;}
+#head .head p:first-of-type{float: left;}
+#head .head p:first-of-type a{font-size: 12px;padding-left:10px;}
+#head .head p:first-of-type a:first-of-type{padding-left: 0px;padding-right: 10px;
+	border-right: 1px solid #eee}
+#head .head p:nth-of-type(2){float: right;}
+#head .head p:nth-of-type(2) a{font-size: 12px;padding-right: 17px;}
+#head .head p:nth-of-type(2) a:nth-of-type(3):after{content: "";display: inline-block;width: 8px;
+height: 4px;background: url(img/images/jiantou_03.gif)no-repeat;vertical-align: middle;margin-left: 5px;}
+
+#logo{height: 80px;position: relative;}
+#logo div{float: left;height: 80px;}
+#logo div:first-of-type{position: absolute;top: 0;left: 0;}
+#logo div:nth-of-type(2) img{width: 200px;height: 80px;margin-left: 150px;}
+#logo div:nth-of-type(3){float: right;}
+#logo div:nth-of-type(3){line-height: 80px;}
+#logo div:nth-of-type(3) a{padding: 0 13px;border-radius: 5px;}
+#logo div:nth-of-type(3) a:first-of-type{display: inline-block;width: 52px;height: 26px;
+background: #e61414;line-height: 26px;text-align: center;color: white}
+
+#banner .banner{height: 435px;}
+#banner .banner ul{width: 150px;height: 400px;background: #f7f0f3;padding-top: 35px;float: left;}
+#banner .banner ul li{line-height: 36px;font-size: 12px;color: #333;font-weight: bold;}
+#banner .banner ul li a{padding-left: 24px;}
+#banner .banner ul li:last-of-type{text-indent: 0px;margin-top: 40px;}
+#banner .banner ul li:last-of-type a{padding-left: 0px;}
